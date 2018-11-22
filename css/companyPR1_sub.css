@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+body{width:100%; height:100%;}			
+.wrap{width:1200px; margin: 0 auto; position: relative; /*overflow: hidden;*/}
+.on{color:orangered; font-weight: bold}
+			
+/* header */
+	header{width:100%;  height: 170px; position: fixed; z-index: 1000; background-color: #fff; border-bottom: 1px solid #efefef;}
+	#headerH{height: 170px;}
+	header>div>div{height: 110px;}
+	header div img{position:relative; top:50%; left:50%; transform:translate(-50%, -50%);}
+	header a{color:#000;}
+	.gnb{width:1200px; border-top:1px solid #efefef; margin: 0 auto;}
+	ul.gnb {width:1200px; height: 60px; /*overflow: hidden;*/}
+	.gnb>li{float:left; width:240px; line-height: 60px; text-align: center; font-family: 'Titillium Web', sans-serif; font-weight: bold; font-size: 18px;}
+	.gnb>li a{width:240px; height: 60px; display: block; box-sizing: border-box;}
+
+	/*소메뉴*/
+	header .gnb ul{width:240px; background-color:rgba(255,255,255,1); height:120px; }
+	/*각각의 소메뉴*/
+	header .gnb ul a{height: 60px;line-height: 60px; font-size:14px; font-family: 'Noto Sans KR', sans-serif; font-size: 16px; font-weight: normal; }
+	header .gnb ul a:hover{color:red; }
+	
+
+/* mainImg */
+	.mainG{width:100%; height: 550px; position: relative; top:170px; overflow: hidden; background:url(../images/companyPR1/sub_main1.jpg) no-repeat 0 0; background-size: cover, auto;}
+
+
+/* content */
+	.content{width:100%; height: 1200px; position:relative; top:170px; overflow: hidden;}
+	.content ul{margin:0 auto; width: 480px; height: 50px; margin-top: 75px; margin-bottom: 110px;}
+	.content li{float: left; width:100px; height: 50px; text-align: center; cursor: pointer; margin:0 10px;}
+	.content li:hover{border-bottom: 2px solid #666;}
+	.content .gnb2 a{font-size: 20px; color:#666; width:100px; height: 50px; font-family: 'Noto Sans KR', sans-serif; display: block;}
+	.content .gnb2 a:hover{color:#000; font-weight: bold; }
+	.content .ceoImg{background:url(../images/companyPR1/sub_img.jpg) no-repeat; width: 320px; height:495px; float: left;}
+	.content .say{width:780px; float: right; overflow: hidden; font-family: 'Noto Sans KR', sans-serif;}
+	.content .say h2{font-size: 45px; margin-bottom: 35px;}
+	.content .say h4{font-size: 24px; margin-bottom: 40px;}
+	.content .say p{font-size: 18px; margin-bottom: 50px; line-height: 1.8; float: left;}
+	.content .sign {float: right; text-align: right; padding-right:70px; }
+	.content .sign p:nth-child(1){margin-top: 30px; }
+	.content .sign span{float: right; text-align: right; font-size: 72px;  padding-left: 50px; }
+
+
+/* footer */
+	footer{width: 100%; height: 205px; margin:0 auto; background: rgba(54,54,54,1); position:relative; top:170px; }
+	footer ul{width:555px; height: 40px; overflow: hidden; margin:0 auto;}
+	footer li{float: left; height: 40px; box-sizing: border-box; padding: 0 15px; line-height: 40px; font-size: 14px; cursor: pointer;}
+	footer p{font-family: 'Noto Sans KR', sans-serif; font-size: 14px; color:#777; padding: 4px 0;}
+	footer li .pp{color:red;}
+	footer a{color:#777;}
+	footer a:hover{color:#fff; transition: .5s;}
+	.txtG{border-top:2px solid #333;}
+	.txtG img{float: left; padding: 50px 70px;}
+	.txt{height: 165px; }
+	.txt p:nth-child(1){padding-top: 20px;}
+	.copy{padding:20px 0;}
