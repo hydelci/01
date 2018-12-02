@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*header*/
+	header{width:100%; height:100px; position: fixed; background-image:url(../images/bg.jpg); background-size:cover; background-color:#fffbf7; z-index: 1000; box-shadow: 1px 1px 1px 1px #efefef; font-family: 'Dosis', sans-serif;  }
+	.wrap{width:1200px; margin: 0 auto; position: relative; overflow: hidden;}
+	#headerG{height: 100px; overflow: hidden;}
+	header a{color:#000;}
+	header h2{font-size:30px; margin-top:20px; width: 150px; }
+	header h2 span{font-size:20px;}
+	header nav .gnb{position:absolute; top:0px; right:0px; height: 100px; }
+	header nav li{float: left; padding:0 25px; cursor: pointer; height: 100px;text-align: center; line-height: 100px;}
+	header li:hover{text-decoration:underline; font-weight: bold;}
+
+.contentG{width:1920px; height:auto; margin: 0 auto; padding-top: 100px;}
+/* box1 */
+.box1{width:1200px; height: 150px; margin:0 auto;text-align: center; overflow: hidden; margin-bottom: 70px;}
+.box1 h2{margin-top:75px; margin-bottom: 10px; font-size: 24px;}
+.box1 p{text-align: center;line-height: 1.2;}
+
+.box2{width: 1920px; height: 13523px;}
+.box2 .mavel{position:relative; top:-450px; left: 400px; z-index: 999;}
