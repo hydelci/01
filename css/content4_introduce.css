@@ -11,8 +11,9 @@
 	header nav li{float: left; padding:0 25px; cursor: pointer; height: 100px;text-align: center; line-height: 100px;}
 	header li:hover{text-decoration:underline; font-weight: bold;}
 
-.contentG{width: 100%; height: 100%; margin: 0 auto; padding-top: 100px;}
+.contentG{width:1920px; height: 100%; margin: 0 auto; padding-top: 100px;}
 /* box1 */
 .box1{width:1200px; height: 150px; margin:0 auto;text-align: center; overflow: hidden; margin-bottom: 70px;}
 .box1 h2{margin-top:75px; margin-bottom: 10px; font-size: 24px;}
-.box1 p{text-align: center;}
+.box1 p{text-align: center;line-height: 1.2;}
+.BOX1 img{width: 1920px; width: 100%; margin: 0 auto;}
